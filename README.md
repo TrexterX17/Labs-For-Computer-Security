@@ -24,7 +24,7 @@ This repository contains **production-quality security research** demonstrating 
 ## 📚 Laboratory Index
 
 ### 🔐 Lab 01: Classical & Modern Cryptography - Encryption Analysis & Attack Vectors
-**[View Full Documentation →](./Lab-01-Cryptography/)**
+**[View Full Documentation →](https://github.com/TrexterX17/Labs-For-Computer-Security/blob/master/Lab-01/Faraz%20Ahmed%20LAB%201.pdf)**
 
 **Focus:** Cryptanalysis | Symmetric Encryption | Block Cipher Modes | Padding Oracle | IV Reuse
 
@@ -62,7 +62,7 @@ This repository contains **production-quality security research** demonstrating 
 ---
 
 ### 🕸️ Lab 02: SQL Injection Attacks - Web Application Security Exploitation
-**[View Full Documentation →](./Lab-02-SQL-Injection/)**
+**[View Full Documentation →](https://github.com/TrexterX17/Labs-For-Computer-Security/blob/master/Lab-02/Faraz%20Ahmed%20LAB%202.pdf)**
 
 **Focus:** Authentication Bypass | Data Exfiltration | Second-Order SQLi | Privilege Escalation
 
@@ -105,7 +105,7 @@ $stmt->bind_param("s", $input);
 ---
 
 ### 🌐 Lab 03: Network Packet Sniffing & Spoofing - Protocol Analysis
-**[View Full Documentation →](./Lab-03-Network-Security/)**
+**[View Full Documentation →](https://github.com/TrexterX17/Labs-For-Computer-Security/blob/master/Lab-03/Faraz%20Ahmed%20LAB%203.pdf)**
 
 **Focus:** Packet Capture | Protocol Analysis | ICMP Spoofing | Custom Tool Development | MITM
 
@@ -153,7 +153,7 @@ $stmt->bind_param("s", $input);
 ---
 
 ### 🛡️ Lab 04: Buffer Overflow & Shellcode Development - System Exploitation
-**[View Full Documentation →](./Lab-04-Buffer-Overflow/)**
+**[View Full Documentation →](https://github.com/TrexterX17/Labs-For-Computer-Security/blob/master/Lab-04/Faraz%20Ahmed%20LAB%204.pdf)**
 
 **Focus:** Assembly Programming | Shellcode Crafting | Stack Overflow | Memory Exploitation
 
