@@ -2,9 +2,9 @@
 
 > **Comprehensive hands-on security laboratory work demonstrating expertise across cryptography, web application security, network exploitation, and binary-level system attacks.**
 
-[![Security](https://img.shields.io/badge/Focus-Offensive%20Security-red?style=for-the-badge)]
-[![Labs](https://img.shields.io/badge/Labs%20Completed-4-brightgreen?style=for-the-badge)]
-[![Skills](https://img.shields.io/badge/Expertise-Full%20Stack%20Security-blue?style=for-the-badge)]
+![Security](https://img.shields.io/badge/Focus-Offensive%20Security-red?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs%20Completed-4-brightgreen?style=for-the-badge)
+![Skills](https://img.shields.io/badge/Expertise-Full%20Stack%20Security-blue?style=for-the-badge)
 
 ---
 
