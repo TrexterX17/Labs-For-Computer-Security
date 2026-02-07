@@ -659,75 +659,21 @@ Computer-Security-Labs/
 │
 ├── README.md                          ← You are here (Portfolio Overview)
 │
-├── Lab-01-Cryptography/
+├── Lab-01
 │   ├── README.md                      ← Detailed lab documentation
-│   ├── screenshots/                   ← Visual evidence
-│   │   ├── task1_frequency_analysis/
-│   │   ├── task2_encryption_modes/
-│   │   ├── task3_ecb_vs_cbc/
-│   │   ├── task4_padding_analysis/
-│   │   ├── task5_error_propagation/
-│   │   └── task6_iv_attacks/
-│   ├── scripts/
-│   │   ├── freq.py                    ← Frequency analysis tool
-│   │   ├── sample_code.py             ← IV attack automation
-│   │   └── padding_analysis.sh
 │   └── Faraz_Ahmed_LAB_1.pdf          ← Original submission
 │
-├── Lab-02-SQL-Injection/
+├── Lab-02
 │   ├── README.md
-│   ├── screenshots/
-│   │   ├── task1_database_recon/
-│   │   ├── task2_auth_bypass/
-│   │   ├── task3_data_manipulation/
-│   │   └── task4_countermeasures/
-│   ├── vulnerable_code/
-│   │   ├── unsafe.php                 ← Original vulnerable code
-│   │   └── unsafe_home.php
-│   ├── secure_code/
-│   │   └── safe.php                   ← Remediated with prepared statements
 │   └── Faraz_Ahmed_LAB_2.pdf
 │
-├── Lab-03-Network-Security/
+├── Lab-03
 │   ├── README.md
-│   ├── screenshots/
-│   │   ├── task1.1_packet_sniffing/
-│   │   ├── task1.2_icmp_spoofing/
-│   │   ├── task1.3_custom_traceroute/
-│   │   └── task1.4_sniff_and_spoof/
-│   ├── scripts/
-│   │   ├── sniffer_icmp.py            ← ICMP-only packet sniffer
-│   │   ├── sniffer_multiple.py        ← Multi-protocol sniffer
-│   │   ├── spoof_icmp.py              ← ICMP spoofing tool
-│   │   ├── traceroute_tool.py         ← Custom traceroute implementation
-│   │   └── sniff_spoof.py             ← MITM attack framework
 │   └── Faraz_Ahmed_LAB_3.pdf
 │
-├── Lab-04-Buffer-Overflow/
-│   ├── README.md
-│   ├── screenshots/
-│   │   ├── shellcode/
-│   │   └── buffer_overflow/
-│   ├── shellcode/
-│   │   ├── hello.s                    ← Basic "Hello World" shellcode
-│   │   ├── mysh64.s                   ← execve shellcode (original)
-│   │   ├── mysh64_optimized.s         ← NULL-byte free version
-│   │   └── call_shellcode.c           ← Shellcode test wrapper
-│   ├── buffer_overflow/
-│   │   ├── stack.c                    ← Vulnerable program
-│   │   ├── Makefile                   ← Multi-target compilation
-│   │   └── exploit.py                 ← Exploit generator
+├── Lab-04
+│   ├── README.md                 
 │   └── Faraz_Ahmed_LAB_4.pdf
-│
-└── resources/                         ← Shared resources
-    ├── cheat-sheets/
-    │   ├── assembly_quick_reference.md
-    │   ├── sql_injection_payloads.txt
-    │   └── common_ports_protocols.md
-    ├── tools/
-    │   └── common_scripts/
-    └── references/
-        └── research_papers.md
 ```
 
 ---
@@ -768,37 +714,6 @@ Computer-Security-Labs/
 - Open-source security tool contributions
 - Technical blog guest posts
 - Conference presentations
-
----
-
-## 📝 How to Use This Repository
-
-### For Recruiters & Hiring Managers
-```
-1. Start with this README for overview
-2. Review Lab 04 (Buffer Overflow) - Demonstrates highest technical skill
-3. Check Lab 02 (SQL Injection) - Shows web security expertise
-4. Browse Lab 03 (Network Security) - Custom tool development
-5. See Lab 01 (Cryptography) - Foundational understanding
-```
-
-### For Fellow Security Professionals
-```
-1. Clone the repository
-2. Each lab includes setup instructions
-3. Scripts are documented and reusable
-4. Adapt techniques for your own research
-5. Contributions and discussions welcome!
-```
-
-### For Students & Learners
-```
-1. Follow labs in order (1→2→3→4) for progressive difficulty
-2. Each README has detailed explanations
-3. Screenshots provide visual guidance
-4. Reproduce exercises in your own lab
-5. Understand concepts before moving to next lab
-```
 
 ---
 
@@ -899,56 +814,6 @@ Intermediate    ████████████            Web Application 
 - 📌 Cross-Site Scripting (XSS)
 - 📌 Wireless Security (WPA/WPA2)
 - 📌 Container Escape Techniques
-
----
-
-## 🌟 What Sets This Portfolio Apart
-
-### 1. Production-Quality Over Academic Exercise
-```
-❌ Typical Lab: "I completed the assignment"
-✅ This Portfolio: "I developed working exploits with professional documentation"
-```
-
-### 2. Custom Development vs Tool Usage
-```
-❌ Most Portfolios: Screenshots of Metasploit
-✅ This Portfolio: Assembly code I wrote for shellcode
-```
-
-### 3. Multi-Domain Expertise
-```
-❌ Narrow Focus: "I know web security"
-✅ Full-Stack: Web + Network + System + Crypto
-```
-
-### 4. Business-Aware Security
-```
-❌ Technical Only: "I found a vulnerability"
-✅ Business Context: "Quantified $4.24M breach impact, mapped to PCI-DSS"
-```
-
-### 5. Offensive + Defensive Mindset
-```
-❌ Attack Only: "I exploited the system"
-✅ Balanced: "I exploited the system AND implemented secure remediation"
-```
-
----
-
-## 💬 Testimonial-Ready Talking Points
-
-### For Technical Interviews
-
-**"Tell me about a challenging project"**
-> "I developed custom shellcode in x86-64 assembly for a buffer overflow exploit. The challenge was eliminating NULL bytes since strcpy would truncate the payload. I replaced `mov eax, 0x0` with `xor rax, rax` and optimized to 39 bytes. The exploit successfully spawned a root shell via SUID binary exploitation on both 32-bit and 64-bit architectures."
-
-**"How do you approach security testing?"**
-> "I follow a systematic methodology: reconnaissance, vulnerability identification, exploitation, post-exploitation, and remediation. For example, in my SQL injection lab, I started with database schema analysis, progressed to authentication bypass, then to second-order injection for privilege escalation, and finally implemented prepared statements as defense."
-
-**"What's your experience with low-level security?"**
-> "I've worked extensively with assembly language for exploit development. I can read and write x86-64 assembly, understand stack frames, calculate precise memory offsets, and craft shellcode payloads. I've exploited buffer overflows across multiple architectures and understand modern protections like ASLR, DEP, and stack canaries."
-
 ---
 
 ## 🙏 Acknowledgments
