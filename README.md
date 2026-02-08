@@ -816,29 +816,6 @@ Intermediate    ████████████            Web Application 
 - 📌 Container Escape Techniques
 ---
 
-## 🙏 Acknowledgments
-
-**Educational Resources:**
-- SEED Labs Project 
-- Offensive Security Training Materials
-- OWASP Foundation
-- Exploit Database (Exploit-DB)
-- Academic research papers in security
-
-**Tools & Frameworks:**
-- Scapy Framework
-- GNU Debugger (GDB)
-- NASM Assembler
-- OpenSSL Project
-- Wireshark
-
-**Community:**
-- Information Security Stack Exchange
-- /r/netsec and /r/ReverseEngineering
-- Security conference presentations (DEF CON, Black Hat)
-
----
-
 <div align="center">
 
 ## ⭐ If you find this repository valuable, please consider starring it! ⭐
